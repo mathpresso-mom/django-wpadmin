@@ -2,8 +2,8 @@
 Menu utilities.
 """
 from fnmatch import fnmatch
+from importlib import import_module
 
-from django.utils.importlib import import_module
 from django.core.urlresolvers import reverse
 
 from wpadmin.utils import (
